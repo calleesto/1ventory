@@ -1,0 +1,290 @@
+html, body {
+margin: 0;
+height: 100%;
+overflow: hidden;
+display: block;
+background-image: url('images/back5.gif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+ background-size: 100% 100%;
+ /* background: #141414; */
+}
+
+
+.all {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+position: fixed;
+height: 100vh;
+width: 100vw;
+
+}
+
+.shadow {
+box-shadow: 0px 0px 60px 45px black; width:200vw; position: fixed; top: 0px;
+}
+
+.logo {
+  width: 400px;
+  height: 400px;
+animation: logoAnimation 1.5s forwards;
+position: fixed;
+max-width: 30vw;
+max-height: 30vw;
+min-width: 10vw;
+min-height: 10vw;
+}
+
+
+.rl {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 2.7s forwards;
+}
+
+.rl:hover {
+border: 3px solid white;
+}
+
+
+
+.r6 {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 2.9s forwards;
+}
+
+.r6:hover {
+border: 3px solid white;
+}
+
+
+
+.fortnite {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 3.1s forwards;
+}
+
+.fortnite:hover {
+border: 3px solid white;
+}
+
+
+
+
+
+.gta {
+width: inherit;
+height: inherit;
+max-width: 30vw;
+max-height: 40vh;
+min-width: 10vw;
+min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 3.3s forwards;
+}
+
+.gta:hover {
+border: 3px solid white;
+}
+
+
+.mc {
+width: inherit;
+height: inherit;
+max-width: 30vw;
+max-height: 40vh;
+min-width: 10vw;
+min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 3.5s forwards;
+}
+
+.mc:hover {
+border: 3px solid white;
+}
+
+.forza {
+width: inherit;
+height: inherit;
+max-width: 30vw;
+max-height: 40vh;
+min-width: 10vw;
+min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 3.7s forwards;
+}
+
+.forza:hover {
+border: 3px solid white;
+}
+
+
+.battlefront {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 3.9s forwards;
+}
+
+.battlefront:hover {
+border: 3px solid white;
+}
+
+.valorant {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 4.1s forwards;
+}
+
+.valorant:hover {
+border: 3px solid white;
+}
+
+.csgo {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 4.3s forwards;
+}
+
+.csgo:hover {
+border: 3px solid white;
+}
+
+.lol {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 4.5s forwards;
+}
+
+.lol:hover {
+border: 3px solid white;
+}
+
+.sc {
+  width: inherit;
+  height: inherit;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-width: 10vw;
+  min-height: 10vh;
+border: 3px solid transparent;
+border-radius: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: iconAppear 4.5s forwards;
+}
+
+.sc:hover {
+border: 3px solid white;
+}
+
+
+@keyframes iconAppear {
+  0% {opacity: 0;}
+  60% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+@keyframes logoAnimation {
+0% {filter: drop-shadow(0px 0px 0px black); }
+40% {filter: drop-shadow(0px 0px 100px black);}
+55% {filter: drop-shadow(0px 0px 20px white);}
+65% {filter: drop-shadow(30px 30px 20px #00FF00);}
+75% {filter: drop-shadow(-30px -30px 20px #0101EA);}
+85% {filter: drop-shadow(-30px 30px 20px #FE0000);  opacity: 1; }
+99% {filter: drop-shadow(-30px 30px 20px #FE0000);   }
+100% {filter: drop-shadow(-30px 30px 20px #141414);  opacity: 0; }
+
+}
